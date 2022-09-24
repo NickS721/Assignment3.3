@@ -1,0 +1,74 @@
+<DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name = "keywords" content = "Incstudents, laptops, webshop"/>
+		<meta name = "description" content ="deze website gaat over student Inc, een website voor scholieren om een laptop te kopen."/>
+		<meta name = "author" content ="nick schaap"/>
+		<title>over ons</title>
+	</head>
+	<body>
+		<form 
+			action = "vote.php"
+			method = "post"
+		>
+		
+		<fieldset>
+			<legend> 
+				Contact by email
+			</legend>
+			<h2>
+			Please select the topic you would like to contact us about. So, we can serve you better and faster. 
+			</h2>
+			<select name = "Contact Topic">
+				<option value="Question Order">I have a question about an order</option>
+				<option value="More information">I like to have more information about a computer</option>
+				<option value="Question">I have another question</option>
+			</select>
+		</fieldset>
+		<h2>
+			Contact about 
+			<h2>
+			<fieldset>
+			<select name = "Choose topic">
+				<option value="Order and delivery">Ordering and delivery</option>
+				<option value="Cancel and Return">Cancel and return</option>
+				<option value="Gift Voucher">Gift voucher</option>
+				<option value="Other Question">Other question </option>
+			</select>
+			</fieldset>
+		<label for ="note">
+			Note*:
+		</label>
+		<fieldset>
+			<input type="note" name="note" placeholder="The notes can be up to 5000 characters."/>
+		</fieldset>
+		<label for ="FirstLastName">
+			First and last name*:
+		</label>
+		<fieldset>
+			<input type="name" name="name"/>
+		</fieldset>
+		<label for ="tel">
+			Phone number
+		</label>
+		<fieldset>
+			<input type="tel" name="tel" placeholder = "More than 80% of our customers share a reachable phone number , so we can better help."/>
+		</fieldset>
+		<label for ="email">
+			E-mail adresse*
+		</label>
+		<fieldset>
+			<input type="email" name="email" autocomplete="on"/>
+			
+		</fieldset>
+		<button type="submit">   
+								&gt; Send email
+							</button>
+		</form>
+		
+		<p>
+		 &copy; 2001.
+		</p>
+	</body>
+</html>
